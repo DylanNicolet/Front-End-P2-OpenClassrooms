@@ -129,55 +129,37 @@ header li{
 #filters h4{
     font-weight: bolder;
     width: 100%;
-    margin: 30px 0px 0px 0px;
+    margin: 30px 0px 10px 0px;
 }
 
 #filters i{
+    font-size: 15px;
     color: #0065FC;
     background-color: #DEEBFF;
-    padding: auto;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    z-index: 2;
-    font-size: 17px;
-    text-align: center;
-}
-
-#filters p{
-    background: white;
-    font-weight: bold;
-    padding: 10px 20px 10px 40px;
-    margin: 0px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #dfdfdf;
-    border-radius: 20px;
+    border-radius: 50px;
     position: absolute;
-    left: 8px;
-    white-space: nowrap;
-    z-index: 1;
-    cursor: pointer;
-}
-
-#filters p:hover{
-    background-color: #DEEBFF;
-    border-color: #DEEBFF;
+    left: -2px;
+    top: -2px;
 }
 
 #filters button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    border-style: hidden;
-    background-color: white;
+    height: 41px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 15px 0px 50px;
+    margin: 5px 20px 5px 0px;
     outline: none;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #dfdfdf;
+    background-color: white;
+    border-radius: 50px;
     position: relative;
-    z-index: 3;
+}
+
+#filters button:hover{
+    background-color: #DEEBFF;
+    border-color: #DEEBFF;
 }
 
 #info{
@@ -619,10 +601,21 @@ footer p{
         max-width: 100%;
     }
 
+    #filters{
+        align-items: center;
+    }
+
     #filters h4{
-        font-weight: bolder;
         width: auto;
         margin: 40px 30px 40px 0px;
+    }
+
+    #filters button{
+        height: 41.5px;
+    }
+
+    #info{
+        margin: 0px;
     }
 
     #accommodations-popular{
