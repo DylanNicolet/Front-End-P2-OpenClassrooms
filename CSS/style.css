@@ -64,7 +64,7 @@ header li{
 }
 
 #search-section h2{
-    margin: 20px 0px 0px 0px;
+    margin: 20px 0px 10px 0px;
     font-weight: 700;
 }
 
@@ -621,6 +621,10 @@ footer p{
         margin: 20px auto;
     }
 
+    #accommodations{
+        width: 100%;
+    }
+
     #popular{
         border-radius: 15px;
     }
@@ -629,7 +633,7 @@ footer p{
 /*----------------------Desktop Break-point-------------------*/
 @media only screen and (min-width:1260px){
     #popular{
-        max-width: 40%;
+        width: 30%;
         order: 2;
     }
 
@@ -637,6 +641,7 @@ footer p{
         transition: transform .2s;
         width: 80%;
         margin: 25px auto;
+        min-width: 281px;
     }
 
     #most-popular-title{
@@ -649,13 +654,14 @@ footer p{
 
     #accommodations-popular{
         display: flex;
+        justify-content: space-between;
     }
 
     #accommodations{
-        max-width: 70%;
+        width: 65%;
         background-color: #f2f2f2;
         border-radius: 15px;
-        margin: 0px 30px 0px 0px;
+        margin: 0px;
         justify-content: space-evenly;
         align-items: center;
     }
@@ -684,9 +690,14 @@ footer p{
         flex-wrap: wrap;
     }
 
+    #activities h2{
+        margin: 30px 0px 20px 0px;
+    }
+
     #first-activities{
         width: 47%;
         height: 460px;
+        margin: 0px 6% 50px 0px;
     }
 
     #old-port img{
@@ -707,7 +718,7 @@ footer p{
     #second-activities{
         width: 47%;
         height: 460px;
-        margin: 20px auto;
+        margin: 0px;
     }
 
     #calanques{
