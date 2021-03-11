@@ -5,14 +5,9 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-p{
+p,button,input{
     font-family: 'Raleway', sans-serif;
 }
-
-button{
-    font-family: 'Raleway', sans-serif;
-}
-
 
 /*-------------------------------Header-------------------------*/
 header{
@@ -70,6 +65,7 @@ header li{
 
 #search-section h2{
     margin: 20px 0px 0px 0px;
+    font-weight: 700;
 }
 
 #search-section{
@@ -94,7 +90,7 @@ header li{
 
 #search-input{
     width: 80%;
-    font-weight: bolder;
+    font-weight: 700;
     padding: 11px 0px 11px 30px;
     font-weight: bold;
     border-width: 2px;
@@ -107,7 +103,6 @@ header li{
 }
 
 #search-button{
-    font-family: FontAwesome;
     background-color: #0065FC;
     color: white;
     padding: 13px;
@@ -127,7 +122,7 @@ header li{
 }
 
 #filters h4{
-    font-weight: bolder;
+    font-weight: 700;
     width: 100%;
     margin: 30px 0px 10px 0px;
 }
@@ -144,7 +139,7 @@ header li{
 
 #filters button{
     height: 41px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Raleway', sans-serif;
     padding: 0px 15px 0px 50px;
     margin: 5px 20px 5px 0px;
