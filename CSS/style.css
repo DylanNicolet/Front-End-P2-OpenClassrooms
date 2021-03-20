@@ -748,3 +748,17 @@ footer p{
         transform: scale(1.05);
     }
 }
+
+
+/*-----------------Ultra-wide screen breakpoint------------*/
+@media only screen and (min-width:1980px){
+    footer{
+        width: 90%;
+        margin: auto;
+    }
+
+    .footer-sections{
+        width: 30%;
+        padding: 30px 0px 30px 30px;
+    }
+}
