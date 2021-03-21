@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="CSS/images/logo/Reservia.svg"></h1>
+<img src="Images/logo/Reservia.svg"></h1>
 
 <h3 align="center">Prototype of a vacation planning tool for Project 2 of Open Classrooms</h3>
 
