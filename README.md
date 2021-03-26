@@ -5,7 +5,7 @@
 
 <p align="center"><img src="README-Media/presentation.gif">
 
-># **[Reservia Live Webpage link](https://github.com/DylanNicolet/dylannicolet.github.io)**
+># **[Reservia Live Webpage link](https://dylannicolet.github.io/)**
 
 >## **In a few words**
 This vacation planning tool allows users to find accommodations and activities in the city of their choice. 
