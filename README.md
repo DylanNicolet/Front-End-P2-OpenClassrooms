@@ -5,6 +5,9 @@
 
 <p align="center"><img src="README-Media/presentation.gif">
 
+>## **Live Preview**
+<p align="center"><a>https://github.com/DylanNicolet/dylannicolet.github.io</a>
+
 >## **In a few words**
 This vacation planning tool allows users to find accommodations and activities in the city of their choice. 
 
